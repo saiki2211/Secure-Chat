@@ -1,0 +1,22 @@
+.chat-container {
+    display: flex;
+    height: 100vh;
+    background: #f8f9fa;
+}
+
+.no-chat-selected {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: #6c757d;
+    font-size: 1.1rem;
+}
+
+.no-chat-selected p {
+    padding: 2rem;
+    text-align: center;
+    background: #f8f9fa;
+    border-radius: 8px;
+} 
